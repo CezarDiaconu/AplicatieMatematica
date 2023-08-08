@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FFAD852-9342-4CC4-BF70-991B0D41506D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Test_Grila2</RootNamespace>
+    <AssemblyName>Test Grila2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form221.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form221.Designer.cs">
+      <DependentUpon>Form221.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form222.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form222.Designer.cs">
+      <DependentUpon>Form222.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form223.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form223.Designer.cs">
+      <DependentUpon>Form223.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form224.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form224.Designer.cs">
+      <DependentUpon>Form224.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form225.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form225.Designer.cs">
+      <DependentUpon>Form225.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form231.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form231.Designer.cs">
+      <DependentUpon>Form231.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form232.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form232.Designer.cs">
+      <DependentUpon>Form232.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form233.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form233.Designer.cs">
+      <DependentUpon>Form233.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form234.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form234.Designer.cs">
+      <DependentUpon>Form234.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form235.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form235.Designer.cs">
+      <DependentUpon>Form235.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form236.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form236.Designer.cs">
+      <DependentUpon>Form236.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.cs">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.cs">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.cs">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.cs">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.cs">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.cs">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.cs">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form381.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form381.Designer.cs">
+      <DependentUpon>Form381.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form382.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form382.Designer.cs">
+      <DependentUpon>Form382.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form383.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form383.Designer.cs">
+      <DependentUpon>Form383.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form39.Designer.cs">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form391.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form391.Designer.cs">
+      <DependentUpon>Form391.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form392.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form392.Designer.cs">
+      <DependentUpon>Form392.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form393.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form393.Designer.cs">
+      <DependentUpon>Form393.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form394.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form394.Designer.cs">
+      <DependentUpon>Form394.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form395.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form395.Designer.cs">
+      <DependentUpon>Form395.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form396.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form396.Designer.cs">
+      <DependentUpon>Form396.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form397.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form397.Designer.cs">
+      <DependentUpon>Form397.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form71.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form71.Designer.cs">
+      <DependentUpon>Form71.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form221.resx">
+      <DependentUpon>Form221.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form222.resx">
+      <DependentUpon>Form222.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form223.resx">
+      <DependentUpon>Form223.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form224.resx">
+      <DependentUpon>Form224.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form225.resx">
+      <DependentUpon>Form225.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form231.resx">
+      <DependentUpon>Form231.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form232.resx">
+      <DependentUpon>Form232.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form233.resx">
+      <DependentUpon>Form233.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form234.resx">
+      <DependentUpon>Form234.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form235.resx">
+      <DependentUpon>Form235.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form236.resx">
+      <DependentUpon>Form236.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33.resx">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form36.resx">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form37.resx">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form38.resx">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form381.resx">
+      <DependentUpon>Form381.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form382.resx">
+      <DependentUpon>Form382.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form383.resx">
+      <DependentUpon>Form383.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form39.resx">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form391.resx">
+      <DependentUpon>Form391.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form392.resx">
+      <DependentUpon>Form392.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form393.resx">
+      <DependentUpon>Form393.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form394.resx">
+      <DependentUpon>Form394.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form395.resx">
+      <DependentUpon>Form395.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form396.resx">
+      <DependentUpon>Form396.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form397.resx">
+      <DependentUpon>Form397.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form71.resx">
+      <DependentUpon>Form71.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kidibot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-05-12 at 17.49.31.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Permutari.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adunarea matricelor.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inm + rid.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matrice inversabila.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transpusa unei matrice.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rangul unei matrice.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-05-15 at 17.46.49.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Determinanti.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prop imp.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prop det.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aplicatii det.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sist de ec lin.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sist patratic.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sist compatibil.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pitagora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stonks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questions.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no music.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no music1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siruri de nr reale.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sir monotone,marginite.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notiunea de lim.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lim siruri.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subsiruri.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Operatii cu siruri.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\criteriul clestelui.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cazuri exceptate.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cazuri exceptate 2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cazuri exceptate 3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karl_Weierstrass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asimptote.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asimptote2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Functii cont.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Functii deriv.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derivate.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tg la gf unui punct.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\derivate de ord sup.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teoreme.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pitagora %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hypatia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girolamo-Cardano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leonhard-Euler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gauss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cantor.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

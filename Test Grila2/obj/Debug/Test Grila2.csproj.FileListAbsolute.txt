@@ -1,0 +1,109 @@
+C:\Users\eu\source\repos\Test Grila2\bin\Debug\Test Grila2.exe.config
+C:\Users\eu\source\repos\Test Grila2\bin\Debug\Test Grila2.exe
+C:\Users\eu\source\repos\Test Grila2\bin\Debug\Test Grila2.pdb
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test Grila2.csprojAssemblyReference.cache
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form1.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Properties.Resources.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test Grila2.csproj.GenerateResource.cache
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test Grila2.csproj.CoreCompileInputs.cache
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test Grila2.exe
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test Grila2.pdb
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form2.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form21.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form22.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form221.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form222.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form223.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form224.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form225.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form23.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form231.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form232.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form233.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form234.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form235.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form236.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form4.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form5.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Interop.WMPLib.dll
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test Grila2.csproj.ResolveComReference.cache
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form6.resources
+C:\Users\eu\source\repos\Test Grila2\bin\Debug\Interop.WMPLib.dll
+C:\Users\eu\source\repos\Test Grila2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form3.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form31.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form32.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form33.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form34.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form35.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form36.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form37.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form38.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form381.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form382.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form383.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form7.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form39.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form391.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form392.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form393.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form394.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form395.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form396.resources
+C:\Users\eu\source\repos\Test Grila2\obj\Debug\Test_Grila2.Form397.resources
+E:\Test Grila2\bin\Debug\Test Grila2.exe.config
+E:\Test Grila2\bin\Debug\Test Grila2.exe
+E:\Test Grila2\bin\Debug\Test Grila2.pdb
+E:\Test Grila2\bin\Debug\Interop.WMPLib.dll
+E:\Test Grila2\bin\Debug\AxInterop.WMPLib.dll
+E:\Test Grila2\obj\Debug\Test Grila2.csprojAssemblyReference.cache
+E:\Test Grila2\obj\Debug\Interop.WMPLib.dll
+E:\Test Grila2\obj\Debug\AxInterop.WMPLib.dll
+E:\Test Grila2\obj\Debug\Test Grila2.csproj.ResolveComReference.cache
+E:\Test Grila2\obj\Debug\Test_Grila2.Form1.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form2.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form21.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form22.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form221.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form222.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form223.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form224.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form225.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form23.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form231.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form232.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form233.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form234.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form235.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form236.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form3.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form31.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form32.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form33.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form34.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form35.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form36.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form37.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form38.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form381.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form382.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form383.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form39.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form391.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form392.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form393.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form394.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form395.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form396.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form397.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form4.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form5.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form6.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form7.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Form71.resources
+E:\Test Grila2\obj\Debug\Test_Grila2.Properties.Resources.resources
+E:\Test Grila2\obj\Debug\Test Grila2.csproj.GenerateResource.cache
+E:\Test Grila2\obj\Debug\Test Grila2.csproj.CoreCompileInputs.cache
+E:\Test Grila2\obj\Debug\Test Grila2.exe
+E:\Test Grila2\obj\Debug\Test Grila2.pdb
